@@ -2,6 +2,8 @@
 
 A simple web scraping application that monitors AI companies and generates daily competitive intelligence reports.
 
+This project serves as a complete tutorial example for learning web scraping, Claude Code, and GitHub workflows.
+
 ## Quick Start
 
 1. **Install dependencies**:
