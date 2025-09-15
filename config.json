@@ -1,0 +1,43 @@
+{
+  "competitors": {
+    "OpenAI": {
+      "blog_url": "https://openai.com/blog",
+      "selectors": {
+        "title": "h3 a, .blog-post-title a",
+        "date": ".published-date, .blog-post-date",
+        "summary": ".excerpt, .blog-post-excerpt"
+      }
+    },
+    "Google AI": {
+      "blog_url": "https://ai.googleblog.com/",
+      "selectors": {
+        "title": ".post-title a, h3 a",
+        "date": ".published, .post-date",
+        "summary": ".post-body, .post-excerpt"
+      }
+    },
+    "Microsoft AI": {
+      "blog_url": "https://blogs.microsoft.com/ai/",
+      "selectors": {
+        "title": ".entry-title a, h2 a",
+        "date": ".entry-meta, .post-date",
+        "summary": ".entry-excerpt, .excerpt"
+      }
+    },
+    "DeepMind": {
+      "blog_url": "https://deepmind.com/blog",
+      "selectors": {
+        "title": ".article-title a, h3 a",
+        "date": ".article-date, .published-date",
+        "summary": ".article-summary, .excerpt"
+      }
+    }
+  },
+  "max_articles": 5,
+  "delay_between_requests": 2,
+  "timeout": 10,
+  "reports_directory": "reports",
+  "user_agent": "Mozilla/5.0 (compatible; CompetitorTracker/1.0)",
+  "retry_attempts": 3,
+  "retry_delay": 5
+}
